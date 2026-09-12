@@ -1,0 +1,4561 @@
+# Shika OS website project
+
+## User
+
+# SHIKATHEROCK — MASTER CREATIVE + TECHNICAL BRIEF
+
+You are starting from scratch on a personal website project for:
+
+# HECTOR VILLANUEVA
+
+## AKA SHIKATHEROCK
+
+This is a highly experimental personal website that combines:
+
+* personal landing page
+* interactive CV / resume
+* portfolio
+* personal/about section
+* future space for forum, guestbook, blog, experiments, etc.
+
+However, this is NOT a normal portfolio.
+
+The central concept is:
+
+> **The visitor is entering and navigating my personal console/game operating system.**
+
+The website should feel like a video game menu / console interface that happens to contain a personal website.
+
+This document is the source of truth for the project.
+
+Do not simplify the concept into a conventional portfolio.
+
+---
+
+# 1. THE CENTRAL METAPHOR
+
+The website is conceptually:
+
+# SHIKA OS
+
+Think of it as the personal operating system / interface of ShikaTheRock.
+
+The visitor is not just reading a webpage.
+
+They are:
+
+* entering the system
+* navigating the main menu
+* selecting applications
+* opening applications
+* pausing them
+* returning to the system
+* navigating between apps
+
+This should feel like a console/game experience.
+
+The most important distinction is:
+
+> **The website is not a website styled like a videogame.**
+>
+> **It is a videogame/console interface that contains a website.**
+
+---
+
+# 2. THE THREE MAIN PERSONAL IDENTITIES
+
+There are three major facets of my identity.
+
+They should exist as separate applications/worlds inside SHIKA OS.
+
+They should share the global operating-system layer, but the actual applications are allowed to change their visual identity significantly.
+
+## A — WILD CARD
+
+This represents my professional / technical identity.
+
+It is the Resume / CV application.
+
+Visual inspiration:
+
+* RPG character menu
+* character sheet
+* attributes
+* skills
+* quest log
+* progression
+* equipment
+* profile
+* statistics
+
+Everything shown must represent REAL information.
+
+Do not invent:
+
+* achievements
+* experience
+* skill levels
+* projects
+* certifications
+* job titles
+* numbers
+
+The RPG structure is a presentation metaphor.
+
+The actual information remains professional and truthful.
+
+---
+
+## B — THE GRIMOIRE
+
+This represents my interest in magic and technology.
+
+It is the Portfolio application.
+
+Each project becomes a:
+
+# SPELL
+
+The portfolio should feel like:
+
+* magical grimoire
+* RPG spellbook
+* technical manuscript
+* annotated book
+* magical archive
+* arcane interface
+
+Current known portfolio projects:
+
+### SPELL 001
+
+Reverse Polish Notation Calculator
+
+Python GUI calculator using Reverse Polish Notation.
+
+### SPELL 002
+
+Markdown Field Manual
+
+A Markdown tutorial currently in development.
+
+Do not invent other portfolio projects.
+
+The architecture should make it easy to add future spells.
+
+---
+
+## C — SHAPESHIFTER
+
+This represents my personal identity.
+
+It is the About / Personal application.
+
+The central idea is:
+
+> **I am made from many different things.**
+
+I like the idea of a:
+
+* 1990s teenage magazine collage
+* early-2000s scrapbook
+* personal web page
+* magazine cutouts
+* handwritten annotations
+* scanned paper
+* photographs
+* stickers
+* mixed typography
+* layered composition
+* intentionally imperfect alignment
+
+This section can be visually chaotic, but should remain usable.
+
+It should communicate personality.
+
+Important interests include:
+
+* Magic: The Gathering
+* Dungeons & Dragons
+* board games
+* videogames
+* music
+* technology
+* computers
+* hardware
+* Linux
+* programming
+* cybersecurity
+* infrastructure
+
+Music references include:
+
+* MF DOOM
+* Nujabes
+* Extremoduro
+* J-Pop
+* J-Rock
+* jazz
+
+Do not turn this into a giant list of hobbies.
+
+It should tell a story about who I am.
+
+---
+
+# 3. MY PERSONALITY
+
+I am a friendly, curious, slightly weird 19-year-old IT student.
+
+I do NOT want the website to present me as:
+
+* dark hacker
+* mysterious cybercriminal
+* edgy occultist
+* arrogant “tech bro”
+* corporate software engineer
+* generic gamer
+
+The desired personality is:
+
+* friendly
+* curious
+* approachable
+* playful
+* intelligent
+* multidisciplinary
+* creative
+* slightly strange
+* passionate about computers
+* passionate about magic
+* passionate about games
+* passionate about learning
+
+The website should make it obvious that there is a real person behind it.
+
+---
+
+# 4. MY RELATIONSHIP WITH TECHNOLOGY
+
+I am fascinated by practically every area of computing.
+
+I enjoy:
+
+* programming
+* Linux
+* system administration
+* networking
+* infrastructure
+* DevOps
+* hardware
+* electronics
+* microsoldering
+* cybersecurity
+* troubleshooting
+* web development
+* computer architecture
+* automation
+
+I like thinking of computing as allowing me to become different things:
+
+* architect
+* programmer
+* detective
+* technician
+* engineer
+* builder
+* problem solver
+
+This is one of the foundations of:
+
+# WILD CARD
+
+I do not want to define myself too narrowly.
+
+---
+
+# 5. MAGIC + TECHNOLOGY
+
+I love magicians / wizards.
+
+This is one of the strongest personal themes in the project.
+
+I also love the concept of combining:
+
+* magic
+* knowledge
+* technology
+* engineering
+* intellect
+
+Doctor Doom is an example of a character that represents this combination particularly well.
+
+Do NOT make the site a Doctor Doom fan page.
+
+Instead, use the conceptual idea:
+
+> **technology + magic + intellect + individuality**
+
+This is especially important in the Grimoire application.
+
+---
+
+# 6. THE MOON
+
+The second major personal symbol is:
+
+# THE MOON
+
+The moon is extremely important to me.
+
+It should become one of the core symbols of SHIKA OS.
+
+The moon is not just decorative.
+
+It should function as part of the interface language.
+
+The moon can appear in:
+
+* main menu
+* global navigation
+* app transitions
+* system menu
+* application indicators
+* status elements
+* loading states
+* subtle Easter eggs
+
+The moon should feel integrated into the system.
+
+---
+
+# 7. MOON PHASE SYSTEM
+
+Use a reusable custom moon component.
+
+It should support:
+
+* New Moon
+* Crescent
+* Half
+* Gibbous
+* Full
+
+The lunar shapes must be visually correct.
+
+Do NOT use an implementation where several early phases visually look like the same half-moon.
+
+The moon should work at:
+
+* tiny UI size
+* navigation size
+* medium size
+* large size
+
+It should be possible to animate between states.
+
+The moon is a SYSTEM SYMBOL.
+
+It is not the giant hero image of the website.
+
+---
+
+# 8. THE MOST IMPORTANT VISUAL REFERENCES
+
+There are three different references, each with a different job.
+
+## COLIN MCRAE RALLY 2.0
+
+### PRIMARY STRUCTURAL REFERENCE
+
+This defines the basic menu language.
+
+What I mean by Colin McRae:
+
+* actual videogame main menu feeling
+* spatial navigation
+* horizontal menu relationships
+* categories living together in one screen
+* selected category being clearly emphasized
+* secondary categories remaining visible
+* contextual information
+* category-specific symbols
+* strong use of whitespace
+* interface-first layout
+* restrained but intentional graphics
+
+IMPORTANT:
+
+Do not interpret “Colin McRae” merely as:
+
+“horizontal menu + central object”.
+
+The important part is the FEELING of navigating an actual game menu.
+
+The screen itself should feel like the menu.
+
+There should be no conventional:
+
+HEADER
+HERO
+BUTTONS
+CONTENT BELOW
+
+structure.
+
+---
+
+# 9. PERSONA 3 / PERSONA 5
+
+Persona is primarily a reference for:
+
+* animation
+* motion
+* transition choreography
+* typography scale
+* asymmetry
+* diagonal composition
+* unconventional shapes
+* visual rhythm
+* aggressive selected states
+* layered movement
+* transitions that react to the user's action
+
+Do NOT copy Persona branding.
+
+Do NOT reproduce Persona layouts exactly.
+
+Do NOT use Persona copyrighted assets.
+
+Use the principles.
+
+Most importantly:
+
+## The interface needs substantially MORE motion than a normal portfolio.
+
+When the user changes menu selection:
+
+the whole composition may react.
+
+For example:
+
+* selected item scales up
+* adjacent items move
+* text changes position
+* symbols rotate
+* contextual information slides in
+* geometric elements move
+* moon phase changes
+* large typography shifts
+* panels clip in/out
+* the composition re-centers around the new selection
+
+Do NOT just animate:
+
+opacity
++
+translateX(20px)
+
+That is not enough.
+
+The animation should feel choreographed.
+
+---
+
+# 10. PLAYSTATION / CONSOLE INTERFACE
+
+Use the philosophy of console menus and system interfaces.
+
+Think:
+
+* PlayStation 3
+* XMB-like system logic
+* console profile screens
+* pause menus
+* application switching
+* system-level overlays
+
+Do NOT literally recreate the PS3 XMB.
+
+Use the principle:
+
+> There is a persistent system layer underneath the applications.
+
+---
+
+# 11. SHIKA OS — THE GLOBAL SYSTEM
+
+The global visual system is:
+
+# SHIKA OS
+
+It contains:
+
+* Home
+* applications
+* profile
+* language
+* audio
+* system controls
+* future sections
+
+This is the part of the website that should be most strongly inspired by:
+
+* Colin McRae
+* PS3-era UI
+* early-2000s videogame menus
+
+The Home screen is the main system menu.
+
+---
+
+# 12. GLOBAL COLOR SYSTEM
+
+IMPORTANT:
+
+The global SHIKA OS has ONE coherent color identity.
+
+Do NOT make the Home one color system, Resume another, etc.
+
+The APPLICATIONS are allowed to change their own visual identity.
+
+The OS itself must remain visually coherent.
+
+My preferred color references are:
+
+### Color Mood A
+
+#754A70
+#86A88E
+#412B42
+#291E24
+
+### Color Mood B
+
+#1B0B4C
+#3C2C8C
+#5F5FB4
+#9E7AFF
+#D2A8FF
+
+### Color Mood C
+
+#253251
+#5E98B0
+#8EC9D2
+#D4CBE2
+#FFFFFF
+
+### Color Mood D
+
+#DABFFF
+#907AD6
+#4F518C
+#2C2A4A
+#7DEFFF
+
+These are NOT one strict palette.
+
+They are references for the visual language I like:
+
+* purple
+* violet
+* lilac
+* lavender
+* blue
+* cyan
+* soft green
+* muted pastel tones
+* deep violet/navy
+* cream/white accents
+
+The global OS should feel colorful and friendly.
+
+DO NOT make the entire site:
+
+* black + purple
+* neon purple
+* cyberpunk
+* hacker
+* occult
+* Matrix-like
+
+Black and dark colors are allowed.
+
+They should simply NOT dominate the whole identity.
+
+---
+
+# 13. IMPORTANT DISTINCTION: OS VS APPLICATION
+
+This distinction is fundamental.
+
+The OS has one shared identity.
+
+The applications can change drastically.
+
+For example:
+
+## HOME / SHIKA OS
+
+Colorful 90s/2000s console-game aesthetic.
+
+## WILD CARD
+
+RPG character screen.
+
+Can become cooler, more technical, more structured.
+
+## GRIMOIRE
+
+Magical book.
+
+Can become:
+
+* violet
+* parchment
+* arcane
+* mystical
+* illustrated
+
+## SHAPESHIFTER
+
+Magazine/scrapbook.
+
+Can become:
+
+* warm
+* paper-like
+* collage-based
+* handwritten
+* editorial
+
+The application itself should feel different.
+
+That is intentional.
+
+It should feel like:
+
+> “I opened another application inside SHIKA OS.”
+
+---
+
+# 14. PERSISTENT GLOBAL NAVIGATION
+
+When inside an application, a small piece of SHIKA OS should remain visible.
+
+This should be:
+
+* a small system button
+* corner menu
+* compact symbol
+* expandable control
+
+NOT:
+
+a normal website navbar.
+
+It should feel like:
+
+* console system menu
+* pause menu
+* persistent operating system layer
+
+Conceptually:
+
+☾ MENU
+
+or another custom system symbol.
+
+---
+
+# 15. EXPANDED SYSTEM / PAUSE MENU
+
+Clicking the global system control should:
+
+1. pause the current application visually
+2. keep it visible in the background
+3. open the SHIKA OS system menu
+
+This system menu can contain:
+
+* HOME
+* PROFILE
+* WILD CARD
+* GRIMOIRE
+* SHAPESHIFTER
+* CONTACT
+* SETTINGS
+* EN / ES
+* AUDIO
+
+etc.
+
+The user should be able to return to Home or switch applications.
+
+This should feel like a real videogame pause/system menu.
+
+NOT:
+
+a hamburger drawer.
+
+NOT:
+
+a standard navbar dropdown.
+
+---
+
+# 16. HOME MENU INTERACTION
+
+The Home menu should be primarily navigated spatially.
+
+Conceptually:
+
+ABOUT
+RESUME
+GRIMOIRE
+CONTACT
+
+The user moves between them.
+
+Adjacent options remain visible.
+
+The active option becomes the dominant element.
+
+A selection can alter:
+
+* scale
+* position
+* symbol
+* text
+* contextual information
+* surrounding composition
+* moon state
+* atmosphere
+
+The user then confirms with ENTER.
+
+Only after confirmation should the application open.
+
+This distinction is important:
+
+# NAVIGATE
+
+then
+
+# ENTER
+
+Do not route immediately just because an item is hovered.
+
+Support:
+
+* mouse
+* keyboard
+* touch where practical
+
+Keyboard navigation should feel like:
+
+Arrow keys
++
+Enter
++
+Escape
+
+Potentially:
+
+A = Enter
+B = Back
+
+---
+
+# 17. MENU SHAPE / COMPOSITION
+
+Do NOT use:
+
+* normal horizontal navbar
+* card grid
+* pill buttons
+* centered hero
+* ordinary rectangular menu boxes everywhere
+
+The menu should use:
+
+* asymmetry
+* diagonals
+* large empty areas
+* unusual positioning
+* layered elements
+* line work
+* symbols
+* clipped shapes
+* typography as a visual object
+* selected-state movement
+
+However:
+
+do NOT fill every inch of the screen.
+
+The early-2000s game-menu feeling depends partly on restraint and whitespace.
+
+---
+
+# 18. THE MAIN MENU SHOULD FEEL ALIVE
+
+When idle:
+
+the menu should feel calm.
+
+When the user interacts:
+
+the interface should react strongly.
+
+The contrast between:
+
+IDLE
+
+and
+
+INTERACTION
+
+is important.
+
+The site does not need endless ambient animation.
+
+It needs responsive choreography.
+
+---
+
+# 19. TRANSITION BETWEEN MENU STATES
+
+When changing from:
+
+ABOUT → RESUME
+
+or:
+
+RESUME → GRIMOIRE
+
+the interface should not simply fade.
+
+Use coordinated movement.
+
+Possible layers:
+
+1. navigation movement
+2. selected item movement
+3. symbol movement
+4. contextual information
+5. moon phase
+6. background geometry
+7. title / typography
+
+These can have slight timing offsets.
+
+This should produce the feeling of a designed interface transition.
+
+---
+
+# 20. APPLICATION LAUNCH
+
+When selecting an application and pressing ENTER:
+
+the application should feel like it is being launched.
+
+Conceptually:
+
+HOME
+↓
+SELECT
+↓
+ENTER
+↓
+transition
+↓
+APPLICATION OPENS
+
+The global system should remain conceptually present.
+
+The application can radically change its visual language.
+
+The transition is what explains the change.
+
+---
+
+# 21. APPLICATION EXIT
+
+When leaving an application:
+
+APP
+↓
+SYSTEM MENU
+↓
+HOME / ANOTHER APP
+
+The system menu should feel like it sits ABOVE the application.
+
+Do not simply hard-route away.
+
+Use transitions.
+
+---
+
+# 22. PROFILE CARD
+
+A small persistent profile element is useful.
+
+It can contain:
+
+SHIKATHEROCK
+LV. 19
+IT STUDENT
+VALENCIA / SPAIN
+
+Potentially:
+
+CURRENT QUEST
+ASIR
+
+The style should feel like:
+
+* player profile
+* save data
+* game system
+
+NOT a rounded modern profile card.
+
+---
+
+# 23. SONG OF THE DAY
+
+I want a global:
+
+# SONG OF THE DAY
+
+feature.
+
+Concept:
+
+Every day, one song is selected from a personal playlist.
+
+The system can play it.
+
+Global controls should include:
+
+* play / pause
+* volume
+* current song
+
+The controls should remain available across the website.
+
+IMPORTANT:
+
+Do NOT make the player look like Spotify.
+
+Do NOT embed the entire Spotify interface.
+
+The music player should look like part of SHIKA OS.
+
+If direct Spotify playback is technically unsuitable:
+
+do NOT fake it.
+
+Create a clean architecture that can support audio later.
+
+---
+
+# 24. LANGUAGE
+
+Default language:
+
+# ENGLISH
+
+There must be a global:
+
+# EN / ES
+
+switch.
+
+It should translate EVERYTHING visible.
+
+This includes:
+
+* Home
+* navigation
+* profile
+* system menu
+* Resume
+* Grimoire
+* Shapeshifter
+* Contact
+* status messages
+* button labels
+* control hints
+* Song of the Day
+* future content
+
+Use a proper i18n/content architecture.
+
+Do not scatter:
+
+if(language === ...)
+throughout the components.
+
+Persist the language preference using localStorage.
+
+The language selector should look like a system control, not a modern website dropdown.
+
+---
+
+# 25. TYPOGRAPHY
+
+The typography direction from earlier iterations was good.
+
+Potential pairing:
+
+### Unbounded
+
+for:
+
+* major display
+* identity
+* strong menu labels
+* important interface moments
+
+### Hanken Grotesk
+
+for:
+
+* UI
+* body
+* descriptions
+* readable information
+
+### Fraunces
+
+for:
+
+* Grimoire flavor text
+* magical/editorial moments
+
+### Caveat
+
+for:
+
+* Shapeshifter handwritten annotations ONLY
+
+Caveat should NOT be used for body text.
+
+Avoid using pixel fonts everywhere.
+
+The website should not rely on typography alone to appear retro.
+
+---
+
+# 26. ICONOGRAPHY
+
+Create a custom visual symbol vocabulary.
+
+Primary conceptual families:
+
+* moon phases
+* stars
+* crystal
+* key
+* orb
+* scroll
+* book
+* seal
+* other subtle magical symbols
+
+These should look like they belong to the same game interface.
+
+Avoid relying on:
+
+* Font Awesome
+* generic icon packs
+* generic SaaS icons
+
+Custom SVG is preferred.
+
+---
+
+# 27. THE MOON + ICON SYSTEM
+
+The moon is the SYSTEM-level symbol.
+
+Application symbols represent individual applications.
+
+For example:
+
+SHIKA OS
+→ moon
+
+GRIMOIRE
+→ magical book / crystal / seal
+
+WILD CARD
+→ technical / character / wildcard symbol
+
+SHAPESHIFTER
+→ abstract shifting shape / collage symbol
+
+CONTACT
+→ key / letter / celestial symbol
+
+This creates a hierarchy:
+
+SYSTEM SYMBOL
+↓
+APPLICATION SYMBOL
+
+---
+
+# 28. CURRENT PROFESSIONAL INFORMATION
+
+Current factual information:
+
+Name:
+
+Hector Villanueva Tomas
+
+Alias:
+
+ShikaTheRock
+
+Current studies:
+
+Ciclo Formativo de Grado Superior
+Administración de Sistemas Informáticos en Red
+
+IES La Sénia
+
+September 2025 – May 2027
+
+Previous studies:
+
+Ciclo Formativo de Grado Medio
+Sistemas Microinformáticos y Redes
+
+IES La Sénia
+
+September 2023 – June 2025
+
+Professional experience:
+
+Creatic - Tecnología Creativa
+
+Técnico de Infraestructura y DevOps
+
+June 2026 – Present
+
+Valencia, Spain
+
+Previous experience:
+
+Centro Telefonia Mobile Milano
+
+Reparación de equipos informáticos
+
+March 2025 – August 2025
+
+Milan, Italy
+
+Languages:
+
+Valencian — Native / Bilingual
+Spanish — Native / Bilingual
+English — Professional Working
+
+Certification:
+
+Curso Intermedio de reparación de móviles Android
+
+Current listed skills include:
+
+* Database management
+* Linux system administration
+* Markup languages
+
+Do not invent additional professional information.
+
+---
+
+# 29. CAREER DIRECTION
+
+I am currently studying ASIR.
+
+After completing it, I would like to study an engineering degree.
+
+I am still early in my professional career.
+
+The website should communicate:
+
+> I am still leveling up.
+
+Not:
+
+> I am pretending to be an expert.
+
+Curiosity and potential are part of the identity.
+
+---
+
+# 30. GITHUB
+
+GitHub:
+
+https://github.com/ShikaTheRock
+
+The GitHub should be treated as a source of current/future project information.
+
+Do not automatically convert every repository into a portfolio project.
+
+The portfolio should be curated.
+
+---
+
+# 31. OLD WEBSITE
+
+Previous website:
+
+https://shikatherock.neocities.org/
+
+This is contextual reference only.
+
+Use it to understand:
+
+* previous identity
+* tone
+* old content
+* personality
+* experimentation
+
+Do not simply redesign it.
+
+---
+
+# 32. EXTERNAL REFERENCES
+
+Primary reference websites:
+
+https://p3cv-nirval.vercel.app/
+
+https://spe.gg/
+
+https://h-ar-m.neocities.org/
+
+https://starshapers-valley.neocities.org/creator
+
+https://irisnet.online/
+
+These are references for:
+
+* experimentation
+* interaction
+* personal web design
+* unusual composition
+* navigation
+* personality
+
+Do not copy exact layouts.
+
+Do not copy copyrighted assets.
+
+Extract principles.
+
+---
+
+# 33. RESPONSIVE DESIGN
+
+Desktop is the most expressive version.
+
+It should have:
+
+* large composition
+* negative space
+* spatial menu
+* layered interface
+* asymmetric elements
+
+Mobile should preserve:
+
+* menu-first structure
+* selected state
+* moon system
+* application switching
+* global system menu
+* expressive transitions where practical
+
+Do not simply create:
+
+mobile navbar
++
+stacked cards.
+
+Recompose the interface for small screens.
+
+---
+
+# 34. ACCESSIBILITY
+
+The interface should still be usable.
+
+Support:
+
+* keyboard navigation
+* visible focus states
+* reduced motion
+* logical tab order
+* semantic controls
+* readable text
+* sufficient contrast
+* accessible labels
+
+The experimental nature must not make the website inaccessible.
+
+---
+
+# 35. PERFORMANCE
+
+The website should be visually ambitious without being unnecessarily heavy.
+
+Prefer:
+
+* CSS
+* SVG
+* lightweight assets
+* optimized images
+* small dependencies
+
+Avoid loading large libraries without a reason.
+
+Avoid unnecessary continuous animation.
+
+Keep animation performant.
+
+---
+
+# 36. TECHNICAL STACK
+
+Preferred stack:
+
+React
++
+Vite
++
+TypeScript
++
+CSS
++
+Framer Motion or equivalent animation library
+
+Use only the dependencies actually needed.
+
+The project must be deployable to:
+
+# Cloudflare Pages
+
+The initial version should ideally be static.
+
+Do not require a backend unless explicitly necessary.
+
+---
+
+# 37. CODE ARCHITECTURE
+
+Maintain a strong separation between:
+
+* OS shell
+* application system
+* routing
+* navigation state
+* i18n
+* global audio
+* moon system
+* iconography
+* application content
+* application-specific components
+* styling
+* assets
+
+Do not create a giant App.tsx.
+
+Do not create one CSS file containing the entire project.
+
+Keep reusable systems reusable.
+
+The application architecture should make it easy to add:
+
+new apps
+new projects
+new languages
+new global controls
+new Easter eggs
+
+---
+
+# 38. RECOMMENDED CONCEPTUAL STRUCTURE
+
+A conceptual architecture might resemble:
+
+src/
+app/
+router
+providers
+state
+
+os/
+shell
+global-menu
+profile
+system-status
+language
+audio
+moon
+navigation
+
+apps/
+wildcard/
+grimoire/
+shapeshifter/
+contact/
+
+components/
+motion
+typography
+icons
+ui
+
+content/
+i18n/
+projects/
+resume/
+about/
+
+styles/
+tokens
+themes
+global
+
+assets/
+
+This is only a conceptual direction.
+
+Choose the cleanest practical structure.
+
+---
+
+# 39. DEVELOPMENT WORKFLOW
+
+I want to develop this iteratively.
+
+Do NOT immediately generate the entire site.
+
+The first stage should be:
+
+# DESIGN + ARCHITECTURE
+
+Before producing large amounts of code, explain:
+
+* proposed architecture
+* component tree
+* navigation state model
+* animation model
+* global OS model
+* application model
+* i18n structure
+* color token structure
+* asset strategy
+* implementation phases
+
+After that, build incrementally.
+
+When modifying an existing file:
+
+provide the complete file.
+
+Do not provide fragments unless explicitly requested.
+
+---
+
+# 40. VERY IMPORTANT: DO NOT DRIFT TOWARD “MODERN PORTFOLIO”
+
+Throughout development, repeatedly check:
+
+Does this feel like:
+
+> a console/game interface?
+
+or:
+
+> a portfolio website with game decoration?
+
+If the latter, redesign it.
+
+Common failure modes to avoid:
+
+* hero section
+* navbar
+* six cards
+* gradient background
+* giant developer title
+* “skills” card grid
+* standard footer
+* generic buttons
+* dashboard aesthetic
+
+---
+
+# 41. VERY IMPORTANT: DO NOT DRIFT TOWARD CYBERPUNK
+
+Avoid:
+
+* black + neon purple
+* green Matrix text
+* hacker imagery
+* holograms
+* glowing cyber interfaces
+* circuit-board backgrounds
+* excessive glow
+* futuristic AI graphics
+
+The website can be technological without looking cyberpunk.
+
+---
+
+# 42. VERY IMPORTANT: DO NOT DRIFT TOWARD “AI WEBSITE”
+
+Avoid the visual language that makes websites feel machine-generated:
+
+* generic gradient blobs
+* generic glassmorphism
+* excessive smoothness
+* futuristic abstract stock imagery
+* AI-style fantasy illustrations
+* generic developer photographs
+* repeated rounded cards
+* predictable layouts
+
+The site should feel:
+
+> human-designed
+> handmade
+> personal
+> deliberate
+
+---
+
+# 43. 90s / 2000s WEB SPIRIT
+
+I love websites from the late 90s and early 2000s because they were not afraid to have personality.
+
+That means the website can:
+
+* be strange
+* use unusual typography
+* use asymmetry
+* include unexpected interactions
+* use unconventional layouts
+* contain small quirks
+* feel handcrafted
+* reward exploration
+
+But it must still have modern usability.
+
+Think:
+
+> old-web personality
+> +
+> modern engineering
+
+---
+
+# 44. THE FINAL EXPERIENCE
+
+The ideal progression for a visitor is:
+
+1. “What is this?”
+
+2. “Wait, this is a game menu.”
+
+3. “Oh, this is Hector's personal system.”
+
+4. “The Resume is a character menu.”
+
+5. “The Portfolio is a spellbook.”
+
+6. “The About section is basically his weird personal magazine.”
+
+7. “This guy clearly loves computers, magic and games.”
+
+8. “This is actually a serious portfolio.”
+
+That entire progression is intentional.
+
+---
+
+# 45. CORE DESIGN EQUATION
+
+The final experience should conceptually be:
+
+# COLIN MCRAE RALLY 2.0
+
+STRUCTURE
+
+*
+
+# PERSONA 3 / PERSONA 5
+
+MOTION / COMPOSITION
+
+*
+
+# PS3 / CONSOLE UI
+
+SYSTEM LOGIC
+
+*
+
+# SHIKATHEROCK
+
+PERSONALITY
+
+*
+
+# MOON + MAGIC
+
+VISUAL LANGUAGE
+
+*
+
+# 90s/2000s WEB CULTURE
+
+PERSONALITY / EXPERIMENTATION
+
+---
+
+# 46. THE MOST IMPORTANT SENTENCE
+
+Remember this throughout the project:
+
+> **I do not want a website styled like a videogame.**
+>
+> **I want a videogame/console interface that happens to contain my website.**
+
+That is the foundation.
+
+---
+
+# 47. FIRST TASK
+
+Do NOT write the full website yet.
+
+First:
+
+1. inspect and understand this brief
+2. propose the technical architecture
+3. propose the global visual system
+4. propose the menu/navigation model
+5. explain how the OS layer and applications will coexist
+6. define the state model for:
+
+   * navigation
+   * selected application
+   * open application
+   * system/pause menu
+   * language
+   * audio
+7. define the animation strategy
+8. define the folder structure
+9. define the implementation phases
+
+Then wait for the next implementation instruction.
+
+Do not simplify the concept.
+
+Do not turn this into a conventional personal portfolio.
+
+Do not invent a different visual direction.
+
+The goal is to build:
+
+# SHIKA OS
+
+an expressive, friendly, magical, colorful, highly interactive console/game interface that happens to be my personal website.
+
+## Assistant
+
+I'll inspect the workspace and the brief's references first, then propose SHIKA OS architecture, visual system, navigation, and implementation phases — without building the site yet.
+
+### Tool Glob File Search
+
+```
+{"targetDirectory":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika","globPattern":"**/*"}
+```
+
+### Tool Switch Mode
+
+```
+{"targetModeId":"plan","explanation":"The brief's first stage is design and architecture only — no full site yet. Plan mode fits that collaborative design pass.","toolCallId":"call-003ac9c9-1b79-472e-8afa-4ff02d7828a0-1\nfc_9dde6d71-1b74-9eba-8ac1-1e93fa2b25fd_1"}
+```
+
+### Tool Get Mcp Tools
+
+```
+{"server":"cursor-app-control","toolName":"rename_chat","toolCallId":"call-003ac9c9-1b79-472e-8afa-4ff02d7828a0-2\nfc_9dde6d71-1b74-9eba-8ac1-1e93fa2b25fd_2"}
+```
+
+## Assistant
+
+There's already a SHIKA OS scaffold in the repo. I'll read that architecture and the brief's constraints so the proposal matches what's here instead of inventing a parallel stack.
+
+### Tool Glob File Search
+
+```
+{"targetDirectory":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika","globPattern":"src/**/*.{ts,tsx,css}"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\package.json"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\store\\useOSStore.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\OSShell.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\HomeMenu.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\styles\\tokens.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\main.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\HomeMenu.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\SystemMenu.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\components\\moon\\Moon.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\components\\moon\\MoonPhase.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\content\\i18n\\types.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\content\\resume\\resume.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\App.tsx"}
+```
+
+### Tool Glob File Search
+
+```
+{"targetDirectory":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika","globPattern":"src/apps/**/*"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\store\\useI18nStore.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\store\\useAudioStore.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\content\\playlist\\playlist.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\content\\grimoire\\spells.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\apps\\wildcard\\WildcardApp.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\OSShell.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\components\\icons\\index.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\styles\\global.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\index.html"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\SystemButton.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\ProfileCard.tsx"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\SongPlayer.tsx","limit":80}
+```
+
+## Assistant
+
+The repo already has a partial SHIKA OS scaffold that drifted toward dark cards and a side drawer. The plan will keep the useful systems and replace the parts that feel like a decorated portfolio.
+
+### Tool Create Plan
+
+## User
+
+Implement the plan as specified, it is attached for your reference. Do NOT edit the plan file itself.
+
+To-do's from the plan have already been created. Do not create them again. Mark them as in_progress as you work, starting with the first one. Don't stop until you have completed all the to-dos.
+
+## Assistant
+
+I'll implement the full SHIKA OS plan phase by phase, starting with bootstrap: wire the shell as the real entry, add an app registry, and remove the Vite starter UI.
+
+### Tool Todo Write
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\content\\i18n\\en.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\content\\i18n\\es.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\styles\\typography.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\styles\\animations.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\styles\\reset.css"}
+```
+
+### Tool Glob File Search
+
+```
+{"targetDirectory":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika","globPattern":"src/**/*.{tsx,ts,css}"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\tsconfig.json"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\vite.config.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\tsconfig.app.json"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\ProfileCard.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\SystemButton.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\SystemMenu.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\SongPlayer.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\apps\\wildcard\\WildcardApp.css"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\SongPlayer.tsx","offset":80}
+```
+
+## Assistant
+
+I'll rebuild the OS core first: stores, tokens, app registry, and the shell entry so the project actually boots into SHIKA OS.
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+### Tool Edit File V2
+
+## Assistant
+
+The revision changes icons, moon states, Home continuity, and the build order. I’ll inspect what’s already on disk, then lock an updated architecture plan before any more implementation.
+
+### Tool Glob File Search
+
+```
+{"targetDirectory":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika","globPattern":"src/**/*.{ts,tsx,css}"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\apps\\registry.ts"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\App.tsx","limit":30}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\store\\useOSStore.ts","limit":40}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Serehelo\\Documents\\PROYECTO_WEB\\shika\\src\\os\\HomeMenu.tsx","limit":40}
+```
+
+## Assistant
+
+The revision is clear: stop treating Home as four scenes, drop occult icons, use five moon states, and finish the OS before any app. I’ll write that as the new architecture source of truth.
+
+Please look at this revision to our plan, i have mae a few corrections to our last plan that u where already implementing, sorry
+
+# SHIKATHEROCK — MASTER CREATIVE + TECHNICAL BRIEF
+
+You are starting a completely new implementation of my personal website.
+
+The project belongs to:
+
+# HECTOR VILLANUEVA
+
+## AKA SHIKATHEROCK
+
+I am 19 years old, born on 21/07/2007, and I am a Spanish IT student currently studying ASIR (Administración de Sistemas Informáticos en Red).
+
+This website is not a conventional portfolio.
+
+It is not a generic developer website.
+
+It is not a cyberpunk website.
+
+It is not an AI-looking website.
+
+The core concept is:
+
+> **The visitor has entered ShikaTheRock's personal console operating system.**
+
+The website should feel like an actual late-90s / early-2000s console or videogame interface which happens to contain:
+
+* my CV
+* my portfolio
+* my personal/about section
+* contact
+* future applications
+
+The central metaphor is:
+
+# SHIKA OS
+
+The user boots into the system, navigates a videogame-style main menu, highlights an application, confirms the selection, launches the application, uses the application, opens the system/pause menu, and returns to the operating system.
+
+---
+
+# 1. ABSOLUTE CORE PRINCIPLE
+
+The most important sentence in the entire project is:
+
+> **I do not want a website styled like a videogame.**
+>
+> **I want a videogame / console interface that happens to contain my website.**
+
+The user should feel as though they are interacting with software.
+
+Not browsing a normal website.
+
+The Home screen is not a landing page containing a menu.
+
+# THE HOME SCREEN IS THE MENU.
+
+There is no conventional:
+
+HEADER
+HERO
+CTA
+CARD GRID
+FOOTER
+
+structure.
+
+The interface itself is the primary experience.
+
+---
+
+# 2. DESIGN REFERENCE HIERARCHY
+
+The references have different responsibilities.
+
+Do NOT merge them into one generic aesthetic.
+
+## COLIN MCRAE RALLY 2.0
+
+### PRIMARY STRUCTURAL REFERENCE
+
+This defines the core MENU LANGUAGE.
+
+Use it as inspiration for:
+
+* spatial menu navigation
+* continuous horizontal navigation
+* categories existing together in the same visual space
+* strong active/selected category
+* neighbouring categories remaining visible
+* contextual information around the selected item
+* small functional menu pictograms
+* restrained but expressive layout
+* large areas of negative space
+* interface-first composition
+* feeling of interacting with a game menu rather than a webpage
+
+The key idea is:
+
+> **A menu should feel like a place you move through.**
+
+Do NOT reduce the Colin McRae reference to merely:
+
+“horizontal navigation + something in the middle”.
+
+The important thing is the relationship between:
+
+* selected item
+* previous item
+* next item
+* context
+* category symbol
+* empty space
+* movement
+
+The user should clearly understand:
+
+WHERE THEY ARE
+WHERE THEY CAN GO
+WHAT IS SELECTED
+WHAT WILL HAPPEN IF THEY CONFIRM
+
+---
+
+## PERSONA 3 / PERSONA 4 / PERSONA 5
+
+### MOTION + COMPOSITION REFERENCE
+
+Persona provides inspiration for:
+
+* kinetic typography
+* large-scale composition
+* diagonal movement
+* unusual shapes
+* strong selection states
+* layered transitions
+* dramatic timing
+* controlled chaos
+* visual impact
+* elements entering/leaving the screen
+* UI behaving like objects rather than passive HTML
+* unexpected but intentional movement
+
+Do NOT copy Persona branding.
+
+Do NOT copy Persona layouts.
+
+Do NOT use Persona assets.
+
+Use its philosophy:
+
+> **The interface itself is animated graphic design.**
+
+---
+
+## PLAYSTATION 3 / XMB / CONSOLE INTERFACE
+
+### SYSTEM LOGIC REFERENCE
+
+Use the philosophy of:
+
+* persistent system UI
+* user profile
+* application switching
+* global controls
+* pause menus
+* media/audio
+* settings
+* system identity
+
+Do NOT recreate PS3 XMB literally.
+
+Use the idea that:
+
+> **Applications exist inside a persistent system.**
+
+---
+
+## SHIKATHEROCK
+
+### PERSONAL IDENTITY
+
+My identity supplies:
+
+* moon
+* magic
+* technology
+* Wild Card concept
+* Shapeshifter concept
+* colors
+* friendly personality
+* 90s/2000s web culture
+* videogame culture
+* personal references
+
+---
+
+# 3. THE EMOTIONAL TARGET
+
+The ideal progression for a visitor is:
+
+> “What is this?”
+
+then:
+
+> “Oh, this is a game menu.”
+
+then:
+
+> “Wait, this is Hector's personal system.”
+
+then:
+
+> “His CV is a character menu.”
+
+then:
+
+> “His portfolio is a magical grimoire.”
+
+then:
+
+> “His About section is basically a weird 90s personal magazine.”
+
+then:
+
+> “This guy clearly loves computers, games, magic and old web design.”
+
+and finally:
+
+> “This is actually a serious portfolio.”
+
+That progression is intentional.
+
+---
+
+# 4. MY PERSONALITY
+
+I am:
+
+* friendly
+* curious
+* approachable
+* playful
+* multidisciplinary
+* creative
+* slightly weird
+* passionate about computers
+* passionate about games
+* passionate about magic
+* passionate about learning
+
+I do NOT want the site to portray me as:
+
+* an edgy hacker
+* mysterious cybercriminal
+* dark occultist
+* cyberpunk villain
+* arrogant tech bro
+* corporate robot
+* “alpha developer”
+* generic gamer
+
+The tone should communicate:
+
+> **A friendly young technologist who loves learning, building things and exploring different worlds.**
+
+---
+
+# 5. MY RELATIONSHIP WITH TECHNOLOGY
+
+I am fascinated by almost every area of computing.
+
+Areas of interest include:
+
+* programming
+* Linux
+* system administration
+* networking
+* infrastructure
+* DevOps
+* hardware
+* electronics
+* microsoldering
+* cybersecurity
+* troubleshooting
+* web development
+* computer architecture
+* automation
+
+I like the idea that computers allow me to become different things depending on the problem:
+
+* programmer
+* architect
+* detective
+* technician
+* engineer
+* builder
+* problem solver
+
+This leads to:
+
+# WILD CARD
+
+I do not want to define myself too narrowly.
+
+I like being able to move between different disciplines.
+
+---
+
+# 6. MAGIC
+
+I love magicians and wizards.
+
+This is one of the two strongest personal themes of the site.
+
+I am fascinated by the combination of:
+
+* knowledge
+* mystery
+* technology
+* engineering
+* intellect
+* imagination
+
+Doctor Doom is an example of the kind of character I love because he combines technology, engineering and magic.
+
+Do NOT turn the site into a Doctor Doom fan site.
+
+Instead, use the broader idea:
+
+> **technology + magic + knowledge + individuality**
+
+This is especially important for the Grimoire application.
+
+---
+
+# 7. THE MOON
+
+The second strongest personal symbol is:
+
+# THE MOON
+
+The moon should be an important recurring visual element.
+
+It belongs primarily to SHIKA OS.
+
+It should represent:
+
+* system identity
+* navigation
+* global state
+* continuity between applications
+* transitions
+
+The moon must NOT simply be:
+
+“a giant pretty moon in the background”.
+
+It is part of the interface.
+
+The moon can appear in:
+
+* Home
+* global system navigation
+* application launch
+* application exit
+* pause menu
+* system status
+* small UI indicators
+* subtle Easter eggs
+
+---
+
+# 8. MOON PHASE SYSTEM
+
+Use five distinct states:
+
+NEW
+CRESCENT
+HALF
+GIBBOUS
+FULL
+
+They must be geometrically correct.
+
+The first three states must NOT visually collapse into multiple versions of a half-moon.
+
+The moon must work at:
+
+* tiny UI size
+* navigation size
+* medium size
+* large stage size
+
+Prefer one reusable component with reliable geometry.
+
+Transitions between lunar states should visually morph.
+
+The moon is a SYSTEM-level symbol.
+
+It is not the main visual object of every application.
+
+---
+
+# 9. SHIKA OS — GLOBAL VISUAL IDENTITY
+
+The global OS has ONE coherent visual identity.
+
+This includes:
+
+* Home
+* global system menu
+* persistent system button
+* global audio
+* language controls
+* system status
+* profile snippet
+* moon system
+
+Applications may visually diverge from the OS.
+
+The OS itself must remain visually coherent.
+
+---
+
+# 10. GLOBAL COLOR DIRECTION
+
+I do NOT want one rigid “purple palette”.
+
+I also do NOT want each section to randomly have a completely different page theme.
+
+The OS should have a coherent family of colors inspired by the following references:
+
+### Mood A
+
+#754A70
+#86A88E
+#412B42
+#291E24
+
+### Mood B
+
+#1B0B4C
+#3C2C8C
+#5F5FB4
+#9E7AFF
+#D2A8FF
+
+### Mood C
+
+#253251
+#5E98B0
+#8EC9D2
+#D4CBE2
+#FFFFFF
+
+### Mood D
+
+#DABFFF
+#907AD6
+#4F518C
+#2C2A4A
+#7DEFFF
+
+These are NOT four page themes.
+
+They are visual references.
+
+The OS should feel:
+
+* violet
+* lilac
+* lavender
+* blue
+* cyan
+* soft green
+* pastel
+* slightly dark where useful
+* colorful
+* friendly
+
+Black and deep tones are completely allowed.
+
+But black should NOT dominate the identity.
+
+Avoid:
+
+* black + neon purple
+* black + green Matrix
+* pure cyberpunk
+* hacker aesthetic
+* giant neon glow
+* futuristic holographic styling
+
+The desired color feeling is:
+
+> **90s/2000s console UI interpreted through a colorful, friendly, slightly magical palette.**
+
+---
+
+# 11. CRITICAL COLOR DISTINCTION
+
+The OS palette is consistent.
+
+The applications are allowed to diverge.
+
+This is important.
+
+When entering an application, it should feel like:
+
+> “I opened another program.”
+
+Therefore:
+
+## SHIKA OS
+
+Global console aesthetic.
+
+## WILD CARD
+
+May become cooler, structured, blue/green, RPG-like.
+
+## GRIMOIRE
+
+May become violet, parchment-like, magical and manuscript-inspired.
+
+## SHAPESHIFTER
+
+May introduce paper, magazine collage, warm tones and handwritten elements.
+
+The visual break is intentional.
+
+The OS makes the applications feel related.
+
+---
+
+# 12. THE MAIN MENU
+
+This is the most important screen in the entire website.
+
+It must feel like a true videogame main menu.
+
+NOT:
+
+* webpage navbar
+* hero section
+* card selector
+* dashboard
+* collection of buttons
+
+Instead:
+
+# A SPATIAL NAVIGATION SYSTEM
+
+The applications live together in one visual space.
+
+Conceptually:
+
+ABOUT
+RESUME
+GRIMOIRE
+CONTACT
+
+The exact order can be chosen based on composition.
+
+There should be a meaningful navigation axis.
+
+The selected item should have strong visual dominance.
+
+Adjacent items should remain visible.
+
+The user should always be able to understand:
+
+* previous
+* current
+* next
+
+---
+
+# 13. NAVIGATION MUST BE SELECT-FIRST, THEN ENTER
+
+This is important.
+
+Moving onto an item does NOT immediately launch it.
+
+The user first:
+
+# SELECTS
+
+Then:
+
+# ENTERS
+
+Interaction:
+
+Desktop mouse:
+
+* hover selects
+* click confirms
+
+Keyboard:
+
+* Arrow Left / Right = move selection
+* A / D = move selection
+* Enter = launch
+* Escape = system menu
+
+Touch:
+
+* first tap selects
+* second tap on already-selected item launches
+
+Selection should be previewable before launching.
+
+This should feel like navigating a console menu.
+
+---
+
+# 14. MAIN MENU SPATIAL BEHAVIOUR
+
+Think:
+
+PREVIOUS
+CURRENT
+NEXT
+
+rather than:
+
+four cards.
+
+The selected application can:
+
+* move toward a focal position
+* increase in scale
+* gain stronger typography
+* gain stronger symbol treatment
+* reveal contextual information
+* shift surrounding elements
+* activate its moon phase
+* trigger background geometry
+* affect secondary UI
+
+Neighbouring items should move/reposition in response.
+
+The selected state is a COMPOSITION CHANGE.
+
+It is NOT a CSS `color` change.
+
+---
+
+# 15. CONTINUITY BETWEEN SELECTIONS
+
+This is critical.
+
+Moving from:
+
+ABOUT
+→ WILD CARD
+→ GRIMOIRE
+
+should feel like travelling through ONE continuous menu.
+
+Do NOT create four separate Home scenes and crossfade between them.
+
+The interface should evolve from the previous state.
+
+The user should feel:
+
+> “I moved one position to the right.”
+
+not:
+
+> “the page switched to another hero.”
+
+---
+
+# 16. EMPTY SPACE
+
+Use significant negative space.
+
+Do not fill the screen with:
+
+* cards
+* panels
+* decorative shapes
+* particles
+* random HUD elements
+
+The visual power should come from:
+
+* spacing
+* typography
+* composition
+* movement
+* hierarchy
+* selected-state choreography
+
+Minimalism and dynamism can coexist.
+
+---
+
+# 17. HOME SCREEN COMPONENTS
+
+Potential global elements:
+
+* SHIKA THE ROCK identity
+* spatial application menu
+* selected application context
+* moon indicator
+* profile/save-data element
+* Song of the Day
+* EN / ES
+* controls
+* small system information
+
+But these are not separate webpage sections.
+
+They must feel like parts of one console interface.
+
+---
+
+# 18. PROFILE / PLAYER CARD
+
+The profile should feel like:
+
+* player profile
+* save data
+* console user identity
+
+Not a modern profile card.
+
+Potential content:
+
+SHIKATHEROCK
+LV. 19
+IT STUDENT
+VALENCIA / SPAIN
+
+CURRENT QUEST
+ASIR
+
+This is flavour.
+
+Do not invent fictional achievements.
+
+Do not invent fake stats.
+
+---
+
+# 19. GLOBAL SYSTEM MENU
+
+Inside applications, a small piece of SHIKA OS must remain visible.
+
+Think:
+
+* corner system control
+* moon/menu symbol
+* compact HUD element
+
+This is NOT a navbar.
+
+It is a system control.
+
+When opened:
+
+# SHIKA OS / PAUSE MENU
+
+The current application remains visible underneath.
+
+The application pauses visually.
+
+The system menu opens above it.
+
+The user can:
+
+* return Home
+* switch application
+* open Resume
+* open Grimoire
+* open About
+* open Contact
+* change language
+* access audio controls
+* access future settings
+
+The menu should feel like a console pause/system interface.
+
+NOT a hamburger drawer.
+
+---
+
+# 20. PAUSE MENU VISUAL LANGUAGE
+
+The current application should remain visible underneath.
+
+It can be:
+
+* slightly dimmed
+* slightly desaturated
+* frozen
+* subtly scaled
+* visually subordinated
+
+Then the system menu appears with its own choreography.
+
+Use:
+
+* large typography
+* strong movement
+* moon
+* system symbols
+* asymmetric panels
+* dramatic but readable transitions
+
+The menu should feel like:
+
+> **a game has been paused.**
+
+---
+
+# 21. APPLICATION MODEL
+
+The architecture should clearly separate:
+
+# SHIKA OS
+
+from:
+
+# APPLICATIONS
+
+The OS owns:
+
+* global navigation
+* home
+* system menu
+* moon
+* language
+* audio
+* profile
+* application launching
+* application exit
+* global transitions
+
+Each application owns:
+
+* its layout
+* its visual theme
+* its internal navigation
+* its content
+* its application-specific animations
+
+---
+
+# 22. APPLICATIONS
+
+Initial applications:
+
+## WILD CARD
+
+Resume / CV
+
+## GRIMOIRE
+
+Portfolio
+
+## SHAPESHIFTER
+
+About
+
+## CONTACT
+
+Contact
+
+Potential future applications:
+
+* Forum
+* Guestbook
+* Blog
+* Music archive
+* Experiments
+* other personal tools
+
+Do not build future applications now.
+
+Design the architecture so they can be added easily.
+
+---
+
+# 23. WILD CARD — RESUME
+
+The Resume should feel like a videogame character menu.
+
+Possible internal areas:
+
+PROFILE
+ATTRIBUTES
+SKILLS
+QUEST LOG
+EQUIPMENT
+EDUCATION
+EXPERIENCE
+
+Use the RPG metaphor to structure REAL information.
+
+Do not invent numerical statistics.
+
+Do not invent XP.
+
+Do not invent fake achievements.
+
+Do not invent fake job experience.
+
+The visual style can be more technical/cooler than the OS while still clearly being an application running inside SHIKA OS.
+
+---
+
+# 24. GRIMOIRE — PORTFOLIO
+
+The Portfolio should feel like a magical grimoire.
+
+Projects are:
+
+# SPELLS
+
+Current known spells:
+
+## SPELL 001
+
+Reverse Polish Notation Calculator
+
+Python GUI calculator using Reverse Polish Notation.
+
+## SPELL 002
+
+Markdown Field Manual
+
+Markdown tutorial currently in development.
+
+Do not invent other projects.
+
+Do not artificially fill the portfolio.
+
+The system should simply be prepared for future spells.
+
+Each spell may eventually contain:
+
+* name
+* status
+* technology
+* purpose
+* implementation
+* features
+* what I learned
+* GitHub
+* demo
+* screenshots
+* future work
+
+The application can use:
+
+* violet
+* parchment
+* manuscript textures
+* annotations
+* seals
+* magical geometry
+* Fraunces
+
+But it should remain readable and technically serious.
+
+---
+
+# 25. SHAPESHIFTER — ABOUT
+
+This is the most personal application.
+
+The concept is:
+
+> **I am made from many different things.**
+
+Visual inspiration:
+
+* 90s teenage magazines
+* early-2000s personal websites
+* scrapbook
+* collage
+* magazine cutouts
+* scanned paper
+* handwriting
+* layered photos
+* stickers
+* mixed type
+* slightly imperfect alignment
+
+Important personal subjects:
+
+* computers
+* Linux
+* Magic: The Gathering
+* D&D
+* board games
+* music
+* magic
+* moon
+* friendship
+* learning
+
+Important music references:
+
+* MF DOOM
+* Nujabes
+* Extremoduro
+* J-Pop
+* J-Rock
+* jazz
+
+Do not turn this into a giant hobby list.
+
+It should feel like a personal story.
+
+---
+
+# 26. CONTACT
+
+Contact can be a simple, stylized application.
+
+It should feel like an old-school communication utility / message interface rather than a standard web form.
+
+Use an intuitive communication object as its category symbol.
+
+Do not invent an email address if it has not been explicitly configured for display.
+
+---
+
+# 27. ICONOGRAPHY — CRITICAL
+
+Do NOT build the global icon system around generic magical glyphs.
+
+The inspiration is the way older videogame menus used simple objects to tell the user what was inside a category.
+
+For example:
+
+* helmet → drivers
+* controller → settings/options
+* car → vehicle
+
+The icon communicates FUNCTION.
+
+I want the same philosophy.
+
+The global icons should be:
+
+* immediately understandable
+* compact
+* stylized
+* easy to animate
+* visually coherent
+* early-2000s game-interface inspired
+
+Do NOT use:
+
+* emoji
+* generic SaaS icons
+* Font Awesome-style iconography
+* abstract occult symbols as the primary system
+* fantasy RPG inventory icons for every category
+
+---
+
+# 28. APPLICATION ICONS
+
+## SYSTEM
+
+Moon
+
+The moon is the OS symbol.
+
+It represents the system itself.
+
+---
+
+## WILD CARD
+
+### CHARACTER / PROFILE CARD
+
+The icon should communicate:
+
+> character / profile / personal data
+
+Potential visual language:
+
+* character-card frame
+* portrait frame
+* simplified profile silhouette
+* status panel
+* subtle wildcard `*`
+
+Do NOT use a wizard hat.
+
+Do NOT make it look like a fantasy class.
+
+---
+
+## GRIMOIRE
+
+### BOOK / OPEN PAGES
+
+Use:
+
+* book
+* open pages
+* archive/book symbol
+
+Optional secondary magical detail:
+
+* small seal
+* bookmark
+* star
+* arcane mark
+
+The main silhouette should remain clearly recognizable as a book.
+
+---
+
+## SHAPESHIFTER
+
+### STACKED PAGES / PHOTOS / MAGAZINE CUTOUTS
+
+Use several overlapping page/photo-like shapes.
+
+They can be:
+
+* offset
+* rotated
+* layered
+* partially overlapping
+
+The symbol should communicate:
+
+> multiple pieces forming one identity.
+
+Do NOT use a wizard staff.
+
+Do NOT use a generic magical symbol.
+
+---
+
+## CONTACT
+
+### COMMUNICATION OBJECT
+
+Use something immediately readable:
+
+* letter
+* envelope
+* telephone handset
+* communication object
+
+Choose whichever fits the visual vocabulary best.
+
+---
+
+# 29. ICON + APPLICATION RELATIONSHIP
+
+The icon represents the application from the outside.
+
+When the application opens, the icon can evolve into the larger application's visual language.
+
+Examples:
+
+WILD CARD
+character-card icon
+→ full RPG character interface
+
+GRIMOIRE
+book icon
+→ full grimoire
+
+SHAPESHIFTER
+stacked pages
+→ full collage
+
+This should create continuity between:
+
+MENU
+→ APP
+
+---
+
+# 30. ICON ANIMATION
+
+Design the icons so that they can participate in transitions.
+
+Examples:
+
+GRIMOIRE
+→ book opens
+
+WILD CARD
+→ profile card unfolds/expands
+
+SHAPESHIFTER
+→ pages separate and rearrange
+
+CONTACT
+→ letter/card opens
+
+SYSTEM
+→ moon transforms
+
+These are conceptual examples.
+
+The final implementation should use whatever animation looks most natural.
+
+---
+
+# 31. ANIMATION PHILOSOPHY
+
+This is extremely important.
+
+I do NOT want:
+
+> “a normal website with nice transitions.”
+
+I want:
+
+# A LIVING INTERFACE.
+
+The interface should feel authored, reactive and kinetic.
+
+The goal is not simply “more animation”.
+
+The goal is:
+
+> **the user should feel that their actions physically affect the interface.**
+
+---
+
+# 32. IDLE STATE
+
+Idle should be:
+
+# CALM, NOT DEAD.
+
+There may be small ambient life:
+
+* subtle moon movement
+* extremely subtle geometry
+* gentle settling
+* tiny status activity
+* small symbol movement
+* occasional secondary system activity
+
+But do NOT use:
+
+* constant particles
+* endless floating blobs
+* flashy background loops
+* noisy animation
+
+Interaction is the main source of spectacle.
+
+---
+
+# 33. SELECTION ANIMATION
+
+Selection changes should trigger coordinated choreography.
+
+Example:
+
+SELECT GRIMOIRE
+
+→ selected item moves toward focus
+→ neighbouring items reposition
+→ previous selection recedes
+→ selected symbol changes scale
+→ symbol rotates/snaps
+→ title moves diagonally
+→ contextual information enters
+→ moon phase morphs
+→ background geometry shifts
+→ a secondary element may cross the viewport
+→ everything settles
+
+This is a composition.
+
+Not one animation.
+
+---
+
+# 34. PERSONA-STYLE ENERGY
+
+The interface should be allowed to become visually extreme during major interactions.
+
+Use:
+
+* exaggerated entrances
+* diagonal motion
+* large scale changes
+* clipping
+* objects entering from outside the viewport
+* kinetic typography
+* quick overlaps
+* layered motion
+* overshoot
+* snap
+* brief visual chaos
+
+Do NOT copy specific Persona animations.
+
+The goal is the same FEELING:
+
+> **the UI has attitude and energy.**
+
+---
+
+# 35. IMPACT MOMENTS
+
+I specifically want occasional “holy shit” moments.
+
+For important interactions, elements may:
+
+* slam into position
+* fly across the screen
+* rapidly expand
+* rotate quickly
+* stretch
+* clip through the viewport
+* appear from outside the frame
+* snap into place
+* dramatically rearrange the layout
+
+Examples:
+
+* huge title suddenly entering the screen
+* application icon rapidly expanding
+* graphic shape wiping across the screen
+* typography briefly becoming enormous
+* an object crossing the composition before settling
+
+Use these strategically.
+
+Not every click should be an explosion.
+
+The goal is:
+
+# CONTROLLED VISUAL SPECTACLE.
+
+---
+
+# 36. ANIMATION MUST HAVE RHYTHM
+
+Different interactions need different levels of energy.
+
+## LEVEL 1 — MICRO
+
+Hover
+Focus
+Tiny controls
+
+Very fast.
+
+## LEVEL 2 — SELECTION
+
+Moving between menu options.
+
+Clearly animated.
+
+## LEVEL 3 — LAUNCH
+
+Opening an application.
+
+Strong.
+
+## LEVEL 4 — PAUSE
+
+Opening the system menu.
+
+Strong and distinctive.
+
+## LEVEL 5 — MAJOR TRANSITION
+
+Entering/exiting major applications.
+
+Most dramatic.
+
+This creates rhythm.
+
+---
+
+# 37. KINETIC TYPOGRAPHY
+
+Typography is part of the visual system.
+
+Large titles may:
+
+* move
+* rotate
+* scale
+* clip
+* overlap
+* reveal
+* extend beyond expected boundaries
+
+Especially on Home.
+
+Text should occasionally behave like a graphic object.
+
+---
+
+# 38. DIFFERENT SPEEDS / STAGGER
+
+Do not animate everything together.
+
+For a major event, timing could be conceptually:
+
+0ms
+primary menu
+
+60ms
+selected icon
+
+100ms
+secondary labels
+
+160ms
+context
+
+220ms
+background geometry
+
+300ms
+metadata
+
+The actual values can be adjusted.
+
+The important principle is:
+
+> **Layered motion creates depth.**
+
+---
+
+# 39. EVENT-BASED VS AMBIENT
+
+Major animation should mostly be:
+
+USER ACTION
+→ PERFORMANCE
+→ SETTLE
+
+rather than:
+
+LOOP
+→ LOOP
+→ LOOP
+
+Ambient motion is allowed only in small amounts.
+
+---
+
+# 40. MENU STATE SHOULD FEEL ALIVE
+
+Even before interaction, the interface can have:
+
+* small motion
+* subtle reactions
+* changing status
+* gentle breathing
+* moon activity
+
+But the page must remain readable.
+
+---
+
+# 41. APPLICATION LAUNCH
+
+Opening an application should feel like launching software.
+
+Example:
+
+HOME
+→ SELECT GRIMOIRE
+→ ENTER
+
+Then:
+
+* menu reacts
+* selected item becomes dominant
+* application icon transforms
+* OS interface begins to recede
+* application visual identity enters
+* application fills the viewport
+* persistent OS control remains
+
+Do not simply:
+
+route
+→ fade
+→ new page
+
+---
+
+# 42. APPLICATION EXIT
+
+Leaving an application should feel like closing software.
+
+Possible behaviours:
+
+* contract
+* fold
+* slide
+* clip
+* expose the OS
+* reverse launch choreography
+
+The OS then resumes.
+
+---
+
+# 43. SYSTEM / PAUSE MENU
+
+Opening the system menu should feel like pausing a console game.
+
+Do NOT just put a translucent black overlay over the page.
+
+Instead:
+
+* current application freezes
+* some application elements settle
+* system elements enter from edges
+* global menu forms
+* moon/system symbol becomes emphasized
+* navigation appears
+* language/audio controls appear
+* the system menu becomes the focus
+
+Closing it should reverse the choreography.
+
+---
+
+# 44. GLOBAL LANGUAGE
+
+Default:
+
+# ENGLISH
+
+Provide:
+
+# EN / ES
+
+The language system must translate ALL visible content.
+
+Including:
+
+* Home
+* navigation
+* profile
+* system menu
+* Resume
+* Grimoire
+* Shapeshifter
+* Contact
+* controls
+* status messages
+* audio labels
+* future content
+
+Use a proper i18n system.
+
+Do not scatter:
+
+if (language === ...)
+throughout components.
+
+Persist language with localStorage.
+
+Update:
+
+document.documentElement.lang
+
+The language control itself should look like part of SHIKA OS.
+
+---
+
+# 45. SONG OF THE DAY
+
+I want:
+
+# SONG OF THE DAY
+
+The conceptual behaviour:
+
+Every day, choose a different song from a personal playlist.
+
+The system should support:
+
+* current song
+* play/pause
+* volume
+* daily selection
+* persistent state
+
+The player must visually belong to SHIKA OS.
+
+DO NOT create a Spotify-looking widget.
+
+DO NOT embed Spotify's UI as the identity of the website.
+
+If real Spotify playback is technically impractical:
+
+do not fake it.
+
+Build the architecture so audio can be integrated later.
+
+---
+
+# 46. PROFESSIONAL INFORMATION
+
+Current factual information:
+
+NAME
+Hector Villanueva Tomas
+
+ALIAS
+ShikaTheRock
+
+CURRENT STUDIES
+Ciclo Formativo de Grado Superior
+Administración de Sistemas Informáticos en Red
+IES La Sénia
+September 2025 – May 2027
+
+PREVIOUS STUDIES
+Ciclo Formativo de Grado Medio
+Sistemas Microinformáticos y Redes
+IES La Sénia
+September 2023 – June 2025
+
+PROFESSIONAL EXPERIENCE
+Creatic - Tecnología Creativa
+Técnico de Infraestructura y DevOps
+June 2026 – Present
+Valencia, Spain
+
+PREVIOUS EXPERIENCE
+Centro Telefonia Mobile Milano
+Reparación de equipos informáticos
+March 2025 – August 2025
+Milan, Italy
+
+LANGUAGES
+Valencian — Native / Bilingual
+Spanish — Native / Bilingual
+English — Professional Working
+
+CERTIFICATION
+Curso Intermedio de reparación de móviles Android
+
+Do not invent additional professional information.
+
+Additional professional details may be provided later.
+
+---
+
+# 47. CAREER DIRECTION
+
+I am currently studying ASIR.
+
+After completing the degree, I would like to study an engineering degree.
+
+I am still early in my professional career.
+
+The website should communicate:
+
+> **I am still leveling up.**
+
+Not:
+
+> “I am pretending to be an expert.”
+
+Curiosity and potential are part of the identity.
+
+---
+
+# 48. CONTENT TRUTH RULE
+
+Use only real information.
+
+Do not invent:
+
+* projects
+* jobs
+* achievements
+* certifications
+* statistics
+* technologies
+* experience
+* numerical skill levels
+
+The website may use metaphors.
+
+The information itself must remain truthful.
+
+---
+
+# 49. GITHUB
+
+GitHub:
+
+https://github.com/ShikaTheRock
+
+Use it as a source of possible current and future information.
+
+Relevant repositories may include:
+
+* ASIR1-Workspace
+* SideProjects
+* ObsidianCity
+* WebComment
+* nanowl-stage
+
+Do not automatically turn every repository into a portfolio project.
+
+Curate them.
+
+---
+
+# 50. OLD WEBSITE
+
+Previous website:
+
+https://shikatherock.neocities.org/
+
+Use it only for contextual reference.
+
+It may help understand:
+
+* old content
+* tone
+* personality
+* previous online identity
+* past experiments
+
+Do not simply redesign it.
+
+---
+
+# 51. EXTERNAL DESIGN REFERENCES
+
+Primary reference websites:
+
+https://p3cv-nirval.vercel.app/
+
+https://spe.gg/
+
+https://h-ar-m.neocities.org/
+
+https://starshapers-valley.neocities.org/creator
+
+https://irisnet.online/
+
+These are inspiration for:
+
+* personal web culture
+* experimentation
+* interaction
+* unusual composition
+* personality
+
+Do not copy their layouts.
+
+Do not copy copyrighted assets.
+
+Extract principles.
+
+---
+
+# 52. NO AI-LOOKING DESIGN
+
+Do NOT use:
+
+* AI-generated-looking illustrations
+* generic futuristic artwork
+* gradient blob backgrounds
+* “AI” visual motifs
+* holograms
+* neural-network imagery
+* generic developer photos
+* generic cyberpunk artwork
+* synthetic fantasy characters
+
+Prefer:
+
+* SVG
+* CSS
+* typography
+* geometric shapes
+* carefully designed graphics
+* appropriately licensed assets
+* handcrafted-looking elements
+
+The result should feel like a human designed it.
+
+---
+
+# 53. NO CYBERPUNK
+
+Technology does not equal cyberpunk.
+
+Do NOT use:
+
+* neon overload
+* Matrix green
+* futuristic holograms
+* glowing circuitry
+* hacker terminals
+* dark cyber aesthetics
+
+The site can feel technical without feeling hostile.
+
+It should communicate:
+
+> technology is fun.
+
+---
+
+# 54. TYPOGRAPHY
+
+Preferred system:
+
+### UNBOUNDED
+
+Use for:
+
+* identity
+* strong display
+* important menu labels
+* major visual typography
+
+### HANKEN GROTESK
+
+Use for:
+
+* UI
+* body
+* readable information
+* descriptions
+
+### FRAUNCES
+
+Use for:
+
+* Grimoire flavor text
+* manuscript/editorial moments
+
+### CAVEAT
+
+Use ONLY for:
+
+* Shapeshifter handwritten annotations
+
+Do not use Caveat as body text.
+
+Do not use pixel fonts everywhere.
+
+---
+
+# 55. SHAPE LANGUAGE
+
+The interface should NOT rely primarily on conventional rounded rectangles.
+
+Explore:
+
+* diagonal cuts
+* skewed surfaces
+* clipped shapes
+* offset layers
+* circles
+* ellipses
+* angular separators
+* asymmetric containers
+* oversized typography
+* elements partially outside their normal bounds
+
+Use conventional rectangles where they improve readability.
+
+Do not make every component a rounded card.
+
+---
+
+# 56. RESPONSIVE DESIGN
+
+Desktop is the most expressive version.
+
+Desktop may use:
+
+* large movement
+* large typography
+* spatial composition
+* diagonal layouts
+* elements crossing the viewport
+
+Mobile must NOT become:
+
+hamburger menu
++
+stacked cards.
+
+Instead, recompose the console UI.
+
+Mobile should preserve:
+
+* selected state
+* navigation
+* moon
+* system menu
+* application model
+* visual personality
+
+The animation system must adapt to screen size.
+
+---
+
+# 57. ACCESSIBILITY
+
+Support:
+
+* keyboard navigation
+* visible focus states
+* semantic controls
+* logical tab order
+* ARIA labels
+* reduced-motion mode
+* sufficient contrast
+* touch-friendly controls
+
+Reduced motion should simplify animation, not destroy the interaction model.
+
+---
+
+# 58. PERFORMANCE
+
+Visual ambition must not result in poor performance.
+
+Prefer:
+
+* transform
+* opacity
+* clip-path where appropriate
+* CSS variables
+* SVG
+* event-driven animation
+* optimized images
+
+Avoid:
+
+* huge particle systems
+* unnecessary 3D
+* constant layout recalculation
+* unnecessarily heavy dependencies
+* continuous expensive effects
+
+---
+
+# 59. TECHNICAL STACK
+
+Preferred stack:
+
+React
+Vite
+TypeScript
+CSS
+Framer Motion or an equivalent animation library
+
+State:
+
+Zustand is acceptable/preferred for global OS state.
+
+Do not add dependencies without a reason.
+
+The project should be deployable to:
+
+# CLOUDFLARE PAGES
+
+Initial version should ideally remain static.
+
+No backend unless a future feature explicitly requires it.
+
+---
+
+# 60. APPLICATION STATE MODEL
+
+Conceptually the OS should have states such as:
+
+HOME
+LAUNCHING
+APP
+PAUSED
+SWITCHING
+EXITING
+
+Global state includes:
+
+selectedApp
+openApp
+systemMenuOpen
+language
+audio state
+reducedMotion
+
+Important rule:
+
+# SELECTING AN APP DOES NOT OPEN IT.
+
+Only:
+
+# ENTER / CONFIRM
+
+launches it.
+
+---
+
+# 61. APPLICATION REGISTRY
+
+Use a central application registry.
+
+Each application should be defined by:
+
+* id
+* component
+* theme
+* icon
+* moon phase
+* name
+* metadata
+
+This should make future applications easy to add.
+
+Do not create a huge conditional tree like:
+
+if about
+else if resume
+else if grimoire
+else if ...
+
+Centralize application definitions.
+
+---
+
+# 62. ARCHITECTURE
+
+Keep a clear separation between:
+
+## OS
+
+* shell
+* atmosphere
+* Home
+* system menu
+* system button
+* global navigation
+* moon
+* profile
+* language
+* audio
+* transitions
+
+## APPLICATIONS
+
+* Wild Card
+* Grimoire
+* Shapeshifter
+* Contact
+
+## SYSTEMS
+
+* state
+* i18n
+* audio
+* motion
+* icons
+* moon
+
+## CONTENT
+
+* resume
+* projects/spells
+* about
+* translations
+* links
+* playlist
+
+Components should not hardcode professional facts.
+
+---
+
+# 63. SUGGESTED FOLDER STRUCTURE
+
+Use a clean practical version of:
+
+src/
+app/
+os/
+shell/
+home/
+system-menu/
+system-button/
+profile/
+audio/
+atmosphere/
+apps/
+registry.ts
+wildcard/
+grimoire/
+shapeshifter/
+contact/
+components/
+moon/
+icons/
+motion/
+store/
+content/
+i18n/
+resume/
+grimoire/
+about/
+playlist/
+styles/
+tokens/
+typography/
+global/
+assets/
+
+Adapt this if a better architecture is justified.
+
+Do not over-engineer.
+
+---
+
+# 64. DEVELOPMENT WORKFLOW
+
+This is a greenfield project.
+
+Start by explaining the architecture and design system.
+
+Do not immediately create the entire site.
+
+After architecture approval, implement iteratively.
+
+Every phase should remain runnable.
+
+When changing a file:
+
+provide the complete updated file.
+
+Do not provide partial snippets unless explicitly requested.
+
+Do not silently assume files exist.
+
+Do not let the project accumulate a huge monolithic App.tsx.
+
+---
+
+# 65. IMPLEMENTATION PHASES
+
+Recommended sequence:
+
+## PHASE 0
+
+Architecture / system model / visual design plan
+
+## PHASE 1
+
+SHIKA OS visual system
+
+* tokens
+* typography
+* moon
+* iconography
+* motion system
+
+## PHASE 2
+
+Home main menu
+
+* spatial navigation
+* selected state
+* functional icons
+* profile
+* system chrome
+* selection choreography
+
+## PHASE 3
+
+Launch / exit / pause system
+
+## PHASE 4
+
+Global i18n and system controls
+
+## PHASE 5
+
+Wild Card
+
+## PHASE 6
+
+Grimoire
+
+## PHASE 7
+
+Shapeshifter
+
+## PHASE 8
+
+Contact
+
+## PHASE 9
+
+Audio / Song of the Day
+
+## PHASE 10
+
+Mobile / accessibility / performance / Cloudflare polish
+
+Do not move to a later application until the global OS feels correct.
+
+---
+
+# 66. DRIFT CHECK — USE THIS CONSTANTLY
+
+At every phase, ask:
+
+### QUESTION 1
+
+Does this feel like a videogame menu?
+
+or:
+
+Does this feel like a website with videogame decoration?
+
+If it is the latter, redesign it.
+
+---
+
+### QUESTION 2
+
+Does the Home feel like a place I navigate through?
+
+or:
+
+Does it feel like a landing page?
+
+---
+
+### QUESTION 3
+
+Does a selection physically affect the interface?
+
+or:
+
+Does it merely change color?
+
+---
+
+### QUESTION 4
+
+Does the OS feel colorful and friendly?
+
+or:
+
+Does it feel like dark hacker/cyberpunk UI?
+
+---
+
+### QUESTION 5
+
+Do applications feel like applications inside the OS?
+
+or:
+
+Do they simply look like different website pages?
+
+---
+
+### QUESTION 6
+
+Are the facts real?
+
+or:
+
+Did we accidentally invent RPG/game information?
+
+---
+
+# 67. MOST IMPORTANT ANIMATION TEST
+
+When I select another menu item, I should be able to SEE that I selected it without reading the label.
+
+Something should:
+
+* move
+* scale
+* rotate
+* shift
+* appear
+* disappear
+* reorganize
+
+The interface should tell me:
+
+> “You changed the selection.”
+
+without relying on:
+
+> “the text changed from grey to purple.”
+
+---
+
+# 68. MOST IMPORTANT HOME TEST
+
+Close your eyes.
+
+Open them.
+
+Look at the Home screen for five seconds.
+
+The first thought should NOT be:
+
+> “portfolio”.
+
+It should be:
+
+> **“game menu”.**
+
+Only after interacting should:
+
+> “personal website”
+
+become clear.
+
+---
+
+# 69. MOST IMPORTANT APPLICATION TEST
+
+Open Wild Card.
+
+It should feel like:
+
+> “I launched a character/status application.”
+
+Open Grimoire.
+
+It should feel like:
+
+> “I launched a magical application.”
+
+Open Shapeshifter.
+
+It should feel like:
+
+> “I launched a strange personal magazine.”
+
+Then press the global system button.
+
+It should immediately feel like:
+
+> “I am back in the console OS.”
+
+---
+
+# 70. FINAL DESIGN EQUATION
+
+The final experience should conceptually be:
+
+# COLIN MCRAE RALLY 2.0
+
+= NAVIGATIONAL SPACE
+
+*
+
+# PERSONA 3 / 4 / 5
+
+= KINETIC BEHAVIOUR + VISUAL ENERGY
+
+*
+
+# PS3 / CONSOLE UI
+
+= SYSTEM PERSISTENCE
+
+*
+
+# SHIKATHEROCK
+
+= PERSONALITY
+
+*
+
+# MOON
+
+= GLOBAL SYMBOL
+
+*
+
+# MAGIC
+
+= ONE MAJOR PERSONAL WORLD
+
+*
+
+# 90s / 2000s WEB
+
+= PERSONALITY + EXPERIMENTATION
+
+---
+
+# 71. THE FINAL EXPERIENCE
+
+The website should feel:
+
+* nostalgic
+* colorful
+* friendly
+* magical
+* technical
+* playful
+* experimental
+* alive
+* personal
+* professional when necessary
+
+It should NOT feel:
+
+* cyberpunk
+* hacker
+* corporate
+* sterile
+* generic
+* AI-generated
+* dark occult
+* generic gamer
+
+---
+
+# 72. FINAL CREATIVE PRINCIPLE
+
+Remember:
+
+> **SHIKA OS is a console.**
+>
+> **The Home screen is the game menu.**
+>
+> **The applications are worlds inside the console.**
+>
+> **The moon represents the system.**
+>
+> **The application icon tells you what is inside.**
+>
+> **The animation makes the system feel alive.**
+>
+> **The content makes it unmistakably ShikaTheRock.**
+
+Do not lose this hierarchy.
+
+---
+
+# 73. FIRST TASK
+
+Do NOT build the website yet.
+
+First respond with:
+
+1. your understanding of the concept
+2. proposed architecture
+3. proposed component tree
+4. state model
+5. Home menu interaction model
+6. visual system
+7. iconography system
+8. animation architecture
+9. application architecture
+10. responsive strategy
+11. implementation roadmap
+
+Before any major code is written, make sure the architecture clearly supports:
+
+SHIKA OS
+→ MAIN MENU
+→ SELECT
+→ ENTER
+→ APPLICATION
+→ SYSTEM / PAUSE
+→ RETURN TO OS
+
+The goal is not to build a website with videogame decoration.
+
+The goal is to build:
+
+# SHIKA OS
+
+> **a living personal console interface that happens to be a website.** 

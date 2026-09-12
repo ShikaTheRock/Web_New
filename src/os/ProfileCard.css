@@ -1,0 +1,104 @@
+.profile-card {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--os-border);
+  background: rgba(37, 50, 81, 0.45);
+  min-width: 150px;
+  max-width: 210px;
+  position: relative;
+}
+
+.profile-card::before,
+.profile-card::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.profile-card::before {
+  top: -1px;
+  right: -1px;
+  border-top: 2px solid var(--os-accent-2);
+  border-right: 2px solid var(--os-accent-2);
+}
+
+.profile-card::after {
+  bottom: -1px;
+  left: -1px;
+  border-bottom: 2px solid var(--os-accent-3);
+  border-left: 2px solid var(--os-accent-3);
+}
+
+.profile-card__slot {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.2em;
+  color: var(--os-accent-4);
+  margin-bottom: var(--space-2);
+}
+
+.profile-card__alias {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.profile-card__divider {
+  height: 1px;
+  background: var(--os-border);
+  margin: var(--space-3) 0;
+}
+
+.profile-card__row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-1);
+  margin-top: var(--space-2);
+}
+
+.profile-card__label {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.16em;
+  color: var(--os-text-dim);
+}
+
+.profile-card__value {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--os-accent-2);
+  line-height: 1;
+}
+
+.profile-card__role,
+.profile-card__location {
+  font-family: var(--font-body);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--os-text-secondary);
+  margin-top: 2px;
+}
+
+.profile-card__quest-label {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.18em;
+  color: var(--os-accent-4);
+}
+
+.profile-card__quest-name {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--os-accent-3);
+}
+
+.profile-card__quest-period {
+  font-family: var(--font-body);
+  font-size: var(--text-2xs);
+  color: var(--os-text-dim);
+}

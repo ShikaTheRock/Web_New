@@ -1,0 +1,158 @@
+/* =============================================
+   SHIKA OS — Design Tokens
+   ============================================= */
+
+:root {
+  /* Base surfaces — colorful console, not near-black */
+  --os-bg:            #2C2A4A;
+  --os-bg-2:          #3A3568;
+  --os-bg-3:          #4F518C;
+  --os-surface:       rgba(253, 250, 244, 0.08);
+  --os-surface-2:     rgba(218, 191, 255, 0.12);
+  --os-border:        rgba(212, 203, 226, 0.28);
+  --os-border-strong: rgba(125, 239, 255, 0.55);
+
+  --os-accent-1:      #907AD6;
+  --os-accent-2:     #7DEFFF;
+  --os-accent-3:      #DABFFF;
+  --os-accent-4:      #86A88E;
+  --os-accent-warm:   #D2A8FF;
+  --os-cream:         #F7F1E8;
+  --os-lilac:         #D4CBE2;
+
+  --os-text-primary:  #F7F1E8;
+  --os-text-secondary:#D4CBE2;
+  --os-text-dim:      #A99BC4;
+  --os-text-muted:    #7A8AA8;
+  --os-text-bright:   #FFFFFF;
+
+  --os-focus:         #7DEFFF;
+  --os-selected:      #DABFFF;
+  --os-hover-bg:      rgba(125, 239, 255, 0.08);
+
+  --os-success:       #86A88E;
+  --os-warning:       #E8C56B;
+  --os-error:         #E07A7A;
+
+  --font-display:     'Unbounded', sans-serif;
+  --font-body:        'Hanken Grotesk', sans-serif;
+  --font-flavor:      'Fraunces', serif;
+  --font-hand:        'Caveat', cursive;
+
+  --text-2xs:  0.625rem;
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-md:   1.125rem;
+  --text-lg:   1.25rem;
+  --text-xl:   1.5rem;
+  --text-2xl:  2rem;
+  --text-3xl:  2.5rem;
+  --text-4xl:  3.5rem;
+  --text-5xl:  5rem;
+  --text-hero: clamp(3.2rem, 9vw, 7.2rem);
+
+  --space-1:   0.25rem;
+  --space-2:   0.5rem;
+  --space-3:   0.75rem;
+  --space-4:   1rem;
+  --space-5:   1.25rem;
+  --space-6:   1.5rem;
+  --space-8:   2rem;
+  --space-10:  2.5rem;
+  --space-12:  3rem;
+  --space-16:  4rem;
+  --space-20:  5rem;
+  --space-24:  6rem;
+  --space-32:  8rem;
+
+  --radius-sm:  2px;
+  --radius-md:  4px;
+  --radius-lg:  8px;
+  --radius-full: 9999px;
+
+  --ease-game:     cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-sharp:    cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring:   cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out:      cubic-bezier(0.0, 0.0, 0.2, 1);
+  --ease-in:       cubic-bezier(0.4, 0.0, 1, 1);
+
+  --dur-instant:   80ms;
+  --dur-fast:      150ms;
+  --dur-normal:    250ms;
+  --dur-slow:      400ms;
+  --dur-xslow:     600ms;
+
+  --moon-color-lit:  #F7F1E8;
+  --moon-color-dark: #253251;
+  --moon-glow:       rgba(218, 191, 255, 0.35);
+
+  --z-bg:       0;
+  --z-content:  10;
+  --z-app:      20;
+  --z-system:   50;
+  --z-overlay:  80;
+  --z-toast:    100;
+}
+
+[data-theme="wildcard"] {
+  --app-bg:           #1A2744;
+  --app-bg-2:         #243356;
+  --app-surface:      #24385C;
+  --app-border:       rgba(126, 239, 255, 0.28);
+  --app-accent-1:     #9E7AFF;
+  --app-accent-2:     #7DEFFF;
+  --app-text-primary: #E8EEF6;
+  --app-text-dim:     #9AA8C0;
+  --app-text-value:   #7DEFFF;
+  --app-text-label:   #DABFFF;
+}
+
+[data-theme="grimoire"] {
+  --app-bg:           #2A1A32;
+  --app-bg-2:         #3A2444;
+  --app-surface:      #F3E6D2;
+  --app-surface-dark: #1E1530;
+  --app-border:       rgba(117, 74, 112, 0.35);
+  --app-accent-1:     #754A70;
+  --app-accent-2:     #DABFFF;
+  --app-accent-3:     #907AD6;
+  --app-text-primary: #2A1F1A;
+  --app-text-light:   #F3E6D2;
+  --app-text-dim:     #6B5848;
+}
+
+[data-theme="shapeshifter"] {
+  --app-bg:           #E8D9C4;
+  --app-bg-2:         #F4E6D0;
+  --app-surface:      #FFF8EE;
+  --app-surface-dark: #253251;
+  --app-border:       rgba(37, 50, 81, 0.18);
+  --app-accent-1:     #C44536;
+  --app-accent-2:     #253251;
+  --app-accent-3:     #5E98B0;
+  --app-text-primary: #1A1209;
+  --app-text-dim:     #5A4E3E;
+  --app-text-red:     #C44536;
+}
+
+[data-theme="contact"] {
+  --app-bg:           #253251;
+  --app-bg-2:         #314262;
+  --app-surface:      #3C2C8C;
+  --app-border:       rgba(142, 201, 210, 0.35);
+  --app-accent-1:     #9E7AFF;
+  --app-accent-2:     #7DEFFF;
+  --app-text-primary: #F7F1E8;
+  --app-text-dim:     #B8C4D8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-instant: 1ms;
+    --dur-fast:    1ms;
+    --dur-normal:  1ms;
+    --dur-slow:    1ms;
+    --dur-xslow:   1ms;
+  }
+}

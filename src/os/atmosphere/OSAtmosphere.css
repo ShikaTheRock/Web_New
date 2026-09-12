@@ -1,0 +1,51 @@
+.os-atmosphere {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-bg);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.os-atmosphere__wash {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 80% at 10% 0%, rgba(218, 191, 255, 0.28) 0%, transparent 42%),
+    radial-gradient(90% 70% at 90% 80%, rgba(125, 239, 255, 0.16) 0%, transparent 50%),
+    linear-gradient(160deg, #4F518C 0%, #2C2A4A 48%, #253251 100%);
+}
+
+.os-atmosphere__band {
+  position: absolute;
+  left: -20%;
+  top: 18%;
+  width: 140%;
+  height: 38%;
+  transform-origin: 40% 50%;
+  mix-blend-mode: screen;
+}
+
+.os-atmosphere__rule {
+  position: absolute;
+  left: -10%;
+  top: 62%;
+  width: 120%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--os-accent-2) 18%,
+    var(--os-accent-3) 52%,
+    transparent 100%
+  );
+  opacity: 0.55;
+  transform: rotate(-8deg);
+}
+
+.os-atmosphere__dust {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(247, 241, 232, 0.22) 0.7px, transparent 0.8px);
+  background-size: 74px 82px;
+  opacity: 0.35;
+}

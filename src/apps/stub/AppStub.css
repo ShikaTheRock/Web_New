@@ -1,0 +1,40 @@
+.app-stub {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12vh 8vw;
+  background: var(--app-bg, var(--os-bg));
+  color: var(--app-text-primary, var(--os-text-primary));
+}
+
+.app-stub__kicker {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--app-accent-2, var(--os-accent-2));
+  margin-bottom: var(--space-4);
+}
+
+.app-stub__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 7vw, 5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+  text-transform: uppercase;
+  transform: rotate(-3deg);
+  transform-origin: left center;
+  max-width: 12ch;
+}
+
+.app-stub__status {
+  margin-top: var(--space-8);
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--app-text-dim, var(--os-text-dim));
+}

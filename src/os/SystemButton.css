@@ -1,0 +1,37 @@
+.system-button-wrapper {
+  position: fixed;
+  top: var(--space-5);
+  left: var(--space-5);
+  z-index: var(--z-overlay);
+}
+
+.system-button {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--os-border);
+  background: rgba(37, 50, 81, 0.72);
+  color: var(--os-cream);
+  cursor: pointer;
+}
+
+.system-button.is-open {
+  border-color: var(--os-accent-2);
+  color: var(--os-accent-2);
+}
+
+.system-button__label {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 860px) {
+  .system-button-wrapper {
+    top: auto;
+    bottom: var(--space-4);
+    left: 50%;
+    translate: -50% 0;
+  }
+}

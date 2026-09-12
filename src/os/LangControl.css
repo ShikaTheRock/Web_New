@@ -1,0 +1,25 @@
+.lang-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  border: 1px solid var(--os-border);
+  padding: 2px 6px;
+}
+
+.lang-control__btn {
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.16em;
+  color: var(--os-text-muted);
+  padding: 2px 4px;
+}
+
+.lang-control__btn.is-active {
+  color: var(--os-accent-2);
+}
+
+.lang-control__sep {
+  color: var(--os-text-muted);
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+}

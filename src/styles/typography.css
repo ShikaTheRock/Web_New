@@ -1,0 +1,66 @@
+/* =============================================
+   SHIKA OS — Typography
+   ============================================= */
+
+/* ── DISPLAY — Unbounded ── */
+.font-display { font-family: var(--font-display); }
+
+/* ── BODY — Hanken Grotesk ── */
+.font-body { font-family: var(--font-body); }
+
+/* ── FLAVOR — Fraunces (Grimoire only) ── */
+.font-flavor { font-family: var(--font-flavor); }
+
+/* ── HANDWRITTEN — Caveat (Shapeshifter annotations only) ── */
+.font-hand { font-family: var(--font-hand); }
+
+/* ── TEXT SCALE ── */
+.text-2xs  { font-size: var(--text-2xs); }
+.text-xs   { font-size: var(--text-xs); }
+.text-sm   { font-size: var(--text-sm); }
+.text-base { font-size: var(--text-base); }
+.text-md   { font-size: var(--text-md); }
+.text-lg   { font-size: var(--text-lg); }
+.text-xl   { font-size: var(--text-xl); }
+.text-2xl  { font-size: var(--text-2xl); }
+.text-3xl  { font-size: var(--text-3xl); }
+.text-4xl  { font-size: var(--text-4xl); }
+.text-5xl  { font-size: var(--text-5xl); }
+.text-hero { font-size: var(--text-hero); }
+
+/* ── WEIGHTS ── */
+.weight-light    { font-weight: 300; }
+.weight-regular  { font-weight: 400; }
+.weight-medium   { font-weight: 500; }
+.weight-semibold { font-weight: 600; }
+.weight-bold     { font-weight: 700; }
+.weight-black    { font-weight: 900; }
+
+/* ── TRACKING ── */
+.tracking-tight  { letter-spacing: -0.02em; }
+.tracking-normal { letter-spacing: 0; }
+.tracking-wide   { letter-spacing: 0.08em; }
+.tracking-wider  { letter-spacing: 0.14em; }
+.tracking-widest { letter-spacing: 0.2em; }
+
+/* ── CASE ── */
+.uppercase  { text-transform: uppercase; }
+.lowercase  { text-transform: lowercase; }
+
+/* ── LINE HEIGHT ── */
+.leading-none    { line-height: 1; }
+.leading-tight   { line-height: 1.2; }
+.leading-snug    { line-height: 1.35; }
+.leading-normal  { line-height: 1.5; }
+.leading-relaxed { line-height: 1.7; }
+
+/* ── COLORS ── */
+.text-primary   { color: var(--os-text-primary); }
+.text-secondary { color: var(--os-text-secondary); }
+.text-dim       { color: var(--os-text-dim); }
+.text-muted     { color: var(--os-text-muted); }
+.text-bright    { color: var(--os-text-bright); }
+.text-accent    { color: var(--os-accent-1); }
+.text-accent-2  { color: var(--os-accent-2); }
+.text-accent-3  { color: var(--os-accent-3); }
+.text-sage      { color: var(--os-accent-4); }

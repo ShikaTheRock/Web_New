@@ -1,0 +1,34 @@
+.os-shell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--os-bg);
+}
+
+.os-home-layer,
+.os-app-layer {
+  position: absolute;
+  inset: 0;
+}
+
+.os-app-layer {
+  z-index: var(--z-app);
+  overflow: hidden;
+}
+
+.os-launch-wipe {
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  width: 42%;
+  z-index: calc(var(--z-app) + 5);
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(125, 239, 255, 0.55) 40%,
+    rgba(218, 191, 255, 0.85) 70%,
+    transparent 100%
+  );
+}
